@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "经济学理解"
+    url: /economy/
+  - title: "计算机科学"
+    url: /cs/
+  - title: "投资与交易"
+    url: /trade/
+  - title: "社会与人生"
+    url: /social/
+  - title: "关于"
+    url: /about/
