@@ -30,9 +30,12 @@
         <a href="{{ post.url | absolute_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+    <!-- 注释掉 阅读时间 计算内容
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
+    {% endif %} -->
+    <!-- 添加创建日期选项 -->
+    <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date_to_long_string }}</p>
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>
