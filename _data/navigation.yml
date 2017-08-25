@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "小岛上的随笔"
+    url: /categories/essay/
   - title: "经济学理解"
     url: /categories/economy/
   - title: "计算机科学"
@@ -9,4 +11,4 @@ main:
   - title: "社会与人生"
     url: /categories/social/
   - title: "关于"
-    url: /categories/about/
+    url: /about/
