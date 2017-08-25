@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "经济学理解"
-    url: /economy/
+    url: /categories/economy/
   - title: "计算机科学"
-    url: /cs/
+    url: /categories/cs/
   - title: "投资与交易"
-    url: /trade/
+    url: /categories/trade/
   - title: "社会与人生"
-    url: /social/
+    url: /categories/social/
   - title: "关于"
-    url: /about/
+    url: /categories/about/
